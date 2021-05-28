@@ -5,7 +5,7 @@ const Navbar = () => {
       <nav>
          <h4>Color Flipper</h4>
          <ul>
-            <Link to="/index.html" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
                <li>Simple</li>
             </Link>
             <Link to="/hex" style={{ textDecoration: "none" }}>
