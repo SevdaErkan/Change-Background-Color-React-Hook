@@ -11,7 +11,7 @@ export default function App() {
          <div className="App">
             <Switch>
                <Switch>
-                  <Route exact path="/index.html" component={Simple} />
+                  <Route exact path="/" component={Simple} />
                   <Route path="/hex" component={Hex} />
                </Switch>
             </Switch>
